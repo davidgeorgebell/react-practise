@@ -1,9 +1,10 @@
 import React from 'react';
+
 import { Pomodoro } from './components/Pomodoro';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='wrapper'>
       <Pomodoro />
     </div>
   );
