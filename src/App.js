@@ -1,11 +1,14 @@
 import React from 'react';
 
-import { Pomodoro } from './components/Pomodoro';
+import { Markdown } from './components/Markdown/Markdown';
+
+// import { Pomodoro } from './components/Pomodoro';
 
 function App() {
   return (
     <div className='wrapper'>
-      <Pomodoro />
+      <Markdown />
+      {/* <Pomodoro /> */}
     </div>
   );
 }
