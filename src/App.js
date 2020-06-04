@@ -1,13 +1,14 @@
 import React from 'react';
 
-import { Markdown } from './components/Markdown/Markdown';
+import { RockPaperScissors } from './components/RockPaperScrissors/RockPaperScissors';
 
 // import { Pomodoro } from './components/Pomodoro';
 
 function App() {
   return (
     <div className='wrapper'>
-      <Markdown />
+      <RockPaperScissors />
+      {/* <Markdown /> */}
       {/* <Pomodoro /> */}
     </div>
   );

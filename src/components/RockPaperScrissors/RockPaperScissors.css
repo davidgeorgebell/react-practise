@@ -1,0 +1,19 @@
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+}
+.button-wrapper button {
+  background: none;
+  border: none;
+  font-size: 100px;
+}
+.win {
+  background: green;
+}
+.lose {
+  background: firebrick;
+}
+.draw {
+  background: lightblue;
+}
